@@ -46,8 +46,8 @@ for heroe in heroes_para_reclutar:
         habilidades_list = list(habilidades_unicas) #<--para qe no se repitan
         
         habilidades_mensaje = " | ".join(habilidades_list)
-        print(heroe,":\n ID : ", id_heroe, " Origen : " , origen_heroe,  " Identidad secreta : ", identidad_heroe ,"\n | ",  habilidades_mensaje,)  
-
+        #print(heroe,":\n ID : ", id_heroe, " Origen : " , origen_heroe,  " Identidad secreta : ", identidad_heroe ,"\n HABILIDADES : ",  habilidades_mensaje,"\n")  
+        print("Heroe : {0} \nID : {1} \nOrigen : {2} \nIdentidad Secreta : {3}\nHabilidades : {4}\n".format(heroe_nombre,id_heroe,origen_heroe,identidad_heroe,habilidades_mensaje))
 '''
 Preparando todo para reclutar héroes y heroínas para la liga de la justicia, el departamento de HR dispone de una larga 
 lista de justicieros pero solo tiene información detallada de algunos de ellos.

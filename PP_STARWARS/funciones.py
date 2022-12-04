@@ -102,7 +102,7 @@ def guardar_archivo(output:str,contenido:list)->bool:
     if len(contenido) > 0 :
         with open(output,"w") as file:
             for elemento in contenido:
-                file.write("Nombre : {0} | Altura : {1} | Peso : {2} | Género : {3} ".format(elemento["name"],
+                file.write("Nombre : {0} | Altura : {1} | Peso : {2} | Genero : {3}.\n".format(elemento["name"],
                                                                                             elemento["height"],
                                                                                             elemento["mass"],
                                                                                             elemento["gender"]))
